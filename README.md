@@ -8,4 +8,4 @@
 
 3. Write a C# program to create a delegate with name `AttendanceLogHandler`. This delegate should hold the reference of 2 methods - `CreateLog` & `MarkAttendance`. Both the methods are taking `EmployeeId` as string parameter. `CreateLog` method is creating a log file with the same name as `EmployeeId` if file not exists. If the log file already exists it should display a message on console as `Log File already exists` whereas `MarkAttendance` is writing the attendance in the file with current system datetime. For example, the log file should have the entry like this - `E2314 has marked the attendance on 16-09-2020 09:30:04`. In main method write the code to take `EmployeeId` as input from user and pass it to `AttedanceLogHandler` delegate. You have to call the methods using delegate.
 
-4. Write a C# program to create to solve the above problem by using `Action` delegate instead of creating the delegate explicitly.
+4. Write a C# program to solve the above problem by using `Action` delegate instead of creating the delegate explicitly.
